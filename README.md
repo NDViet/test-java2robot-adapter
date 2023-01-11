@@ -7,7 +7,7 @@ Implementation for Test Libraries written in Java can be used in Robot Framework
 
 1. [test-automation-fwk](https://github.com/vietnd96/test-automation-fwk)
 
-## Referrence
+## Reference
 
 A sample project is using these Robot Keywords.<br>
 
