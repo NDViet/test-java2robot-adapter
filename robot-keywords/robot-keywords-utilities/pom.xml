@@ -15,12 +15,12 @@
     <dependencies>
         <dependency>
             <groupId>io.github.ndviet</groupId>
-            <artifactId>library-utilities</artifactId>
+            <artifactId>test-libraries-utilities</artifactId>
             <version>${test-automation-fwk.version}</version>
         </dependency>
         <dependency>
             <groupId>io.github.ndviet</groupId>
-            <artifactId>library-listeners</artifactId>
+            <artifactId>test-libraries-listeners</artifactId>
             <version>${test-automation-fwk.version}</version>
         </dependency>
     </dependencies>
