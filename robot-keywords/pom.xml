@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>library-robot-keywords</artifactId>
-    <name>Library Robot Keywords</name>
+    <artifactId>robot-keywords</artifactId>
+    <name>Robot Keywords</name>
     <packaging>pom</packaging>
     <modules>
         <module>robot-keywords-webui</module>

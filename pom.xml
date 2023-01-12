@@ -18,7 +18,7 @@
     <url>https://${github.url}/${github.organization}/${github.repository}/tree/${github.branch}</url>
     <packaging>pom</packaging>
     <modules>
-        <module>keywords</module>
+        <module>robot-keywords</module>
     </modules>
 
     <properties>

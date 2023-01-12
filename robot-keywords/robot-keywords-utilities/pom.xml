@@ -3,22 +3,27 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>library-robot-keywords</artifactId>
+        <artifactId>robot-keywords</artifactId>
         <groupId>io.github.ndviet</groupId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>robot-keywords-webui</artifactId>
-    <name>Library Robot Keywords - WebUI</name>
+    <artifactId>robot-keywords-utilities</artifactId>
+    <name>Robot Keywords - Utilities</name>
 
     <dependencies>
         <dependency>
             <groupId>io.github.ndviet</groupId>
-            <artifactId>library-webui</artifactId>
-            <classifier>shaded</classifier>
+            <artifactId>library-utilities</artifactId>
+            <version>${test-automation-fwk.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.ndviet</groupId>
+            <artifactId>library-listeners</artifactId>
             <version>${test-automation-fwk.version}</version>
         </dependency>
     </dependencies>
+
 
 </project>
