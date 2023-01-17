@@ -94,6 +94,18 @@ public class WebUI extends AnnotationLibrary {
     }
 
     @RobotKeyword
+    @ArgumentNames({"objectID", "absolutePath", "variables="})
+    public void uploadFile(String objectID, String absolutePath, Map variables) throws Exception {
+        com.ndviet.library.WebUI.uploadFile(findTestObject(objectID, variables), absolutePath);
+    }
+
+    @RobotKeywordOverload
+    @ArgumentNames({"objectID", "absolutePath"})
+    public void uploadFile(String objectID, String absolutePath) throws Exception {
+        com.ndviet.library.WebUI.uploadFile(findTestObject(objectID), absolutePath);
+    }
+
+    @RobotKeyword
     @ArgumentNames({"objectID", "text", "variables="})
     public void setText(String objectID, String text, Map variables) throws Exception {
         com.ndviet.library.WebUI.setText(findTestObject(objectID, variables), text);
@@ -206,6 +218,18 @@ public class WebUI extends AnnotationLibrary {
     @ArgumentNames({"objectID"})
     public void moveToElement(String objectID) throws Exception {
         com.ndviet.library.WebUI.moveToElement(findTestObject(objectID));
+    }
+
+    @RobotKeyword
+    @ArgumentNames({"objectID", "variables="})
+    public void scrollToElement(String objectID, Map variables) throws Exception {
+        com.ndviet.library.WebUI.scrollToElement(findTestObject(objectID, variables));
+    }
+
+    @RobotKeywordOverload
+    @ArgumentNames({"objectID"})
+    public void scrollToElement(String objectID) throws Exception {
+        com.ndviet.library.WebUI.scrollToElement(findTestObject(objectID));
     }
 
 }
