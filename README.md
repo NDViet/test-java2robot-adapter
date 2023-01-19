@@ -58,4 +58,4 @@ git clone git@github.com:vietnd96/test-java2robot-adapter.git
 
 A sample project is using these Robot Keywords.<br>
 
-* [test-automation-project](https://github.com/vietnd96/test-automation-project)
+* [test-automation-project](../../../test-automation-project)
