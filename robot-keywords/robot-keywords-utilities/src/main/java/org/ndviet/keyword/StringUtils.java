@@ -1,6 +1,6 @@
-package com.ndviet.keyword;
+package org.ndviet.keyword;
 
-import com.ndviet.library.string.StringHelpers;
+import org.ndviet.library.string.StringHelpers;
 import org.robotframework.javalib.annotation.ArgumentNames;
 import org.robotframework.javalib.annotation.RobotKeyword;
 import org.robotframework.javalib.annotation.RobotKeywords;
@@ -12,7 +12,7 @@ import java.util.List;
 @RobotKeywords
 public class StringUtils extends AnnotationLibrary {
     public StringUtils() {
-        super(Arrays.asList("com/ndviet/keyword/StringUtils.class"));
+        super(Arrays.asList("org/ndviet/keyword/StringUtils.class"));
     }
 
     @RobotKeyword

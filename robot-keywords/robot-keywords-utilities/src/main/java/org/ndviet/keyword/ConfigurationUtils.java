@@ -1,10 +1,10 @@
-package com.ndviet.keyword;
+package org.ndviet.keyword;
 
-import com.ndviet.library.configuration.Configuration;
-import com.ndviet.library.configuration.ConfigurationFactory;
-import com.ndviet.library.configuration.JsonConfiguration;
-import com.ndviet.library.configuration.YamlConfiguration;
-import com.ndviet.library.spring.SpringHelpers;
+import org.ndviet.library.configuration.Configuration;
+import org.ndviet.library.configuration.ConfigurationFactory;
+import org.ndviet.library.configuration.JsonConfiguration;
+import org.ndviet.library.configuration.YamlConfiguration;
+import org.ndviet.library.spring.SpringHelpers;
 import org.robotframework.javalib.annotation.RobotKeyword;
 import org.robotframework.javalib.annotation.RobotKeywords;
 import org.robotframework.javalib.library.AnnotationLibrary;
@@ -15,7 +15,7 @@ import java.util.List;
 @RobotKeywords
 public class ConfigurationUtils extends AnnotationLibrary {
     public ConfigurationUtils() {
-        super(Arrays.asList("com/ndviet/keyword/ConfigurationUtils.class"));
+        super(Arrays.asList("org/ndviet/keyword/ConfigurationUtils.class"));
         SpringHelpers.getInstance().getBean("ConfigurationFactory");
     }
 

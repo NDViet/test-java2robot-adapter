@@ -1,6 +1,6 @@
-package com.ndviet.keyword;
+package org.ndviet.keyword;
 
-import com.ndviet.library.list.ListHelpers;
+import org.ndviet.library.list.ListHelpers;
 import org.robotframework.javalib.annotation.ArgumentNames;
 import org.robotframework.javalib.annotation.RobotKeyword;
 import org.robotframework.javalib.annotation.RobotKeywordOverload;
@@ -14,7 +14,7 @@ import java.util.List;
 public class ListUtils extends AnnotationLibrary {
 
     public ListUtils() {
-        super(Arrays.asList("com/ndviet/keyword/ListUtils.class"));
+        super(Arrays.asList("org/ndviet/keyword/ListUtils.class"));
     }
 
     @RobotKeyword

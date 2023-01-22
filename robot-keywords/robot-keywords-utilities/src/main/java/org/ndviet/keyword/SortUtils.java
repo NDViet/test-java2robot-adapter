@@ -1,6 +1,6 @@
-package com.ndviet.keyword;
+package org.ndviet.keyword;
 
-import com.ndviet.library.map.MapUtils;
+import org.ndviet.library.map.MapUtils;
 import org.robotframework.javalib.annotation.RobotKeyword;
 import org.robotframework.javalib.annotation.RobotKeywords;
 import org.robotframework.javalib.library.AnnotationLibrary;
@@ -11,7 +11,7 @@ import java.util.Map;
 @RobotKeywords
 public class SortUtils extends AnnotationLibrary {
     public SortUtils() {
-        super(Arrays.asList("com/ndviet/keyword/SortUtils.class"));
+        super(Arrays.asList("org/ndviet/keyword/SortUtils.class"));
     }
 
     @RobotKeyword

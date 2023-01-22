@@ -11,18 +11,18 @@ Implementation for Test Libraries written in Java can be used in Robot Framework
 ## Dependencies declaration
 
 ```xml
-<!-- https://mvnrepository.com/artifact/io.github.ndviet/robot-keywords-utilities -->
+<!-- https://mvnrepository.com/artifact/org.ndviet/robot-keywords-utilities -->
 <dependency>
-    <groupId>io.github.ndviet</groupId>
+    <groupId>org.ndviet</groupId>
     <artifactId>robot-keywords-utilities</artifactId>
     <version>${version}</version>
 </dependency>
 ```
 
 ```xml
-<!-- https://mvnrepository.com/artifact/io.github.ndviet/robot-keywords-webui -->
+<!-- https://mvnrepository.com/artifact/org.ndviet/robot-keywords-webui -->
 <dependency>
-    <groupId>io.github.ndviet</groupId>
+    <groupId>org.ndviet</groupId>
     <artifactId>robot-keywords-webui</artifactId>
     <version>${version}</version>
 </dependency>

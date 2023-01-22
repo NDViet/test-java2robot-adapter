@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>robot-keywords</artifactId>
-        <groupId>io.github.ndviet</groupId>
+        <groupId>org.ndviet</groupId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -14,12 +14,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.github.ndviet</groupId>
+            <groupId>org.ndviet</groupId>
             <artifactId>test-libraries-utilities</artifactId>
             <version>${test-automation-fwk.version}</version>
         </dependency>
         <dependency>
-            <groupId>io.github.ndviet</groupId>
+            <groupId>org.ndviet</groupId>
             <artifactId>test-libraries-listeners</artifactId>
             <version>${test-automation-fwk.version}</version>
         </dependency>

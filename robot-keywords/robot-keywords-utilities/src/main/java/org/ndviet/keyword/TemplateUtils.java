@@ -1,6 +1,6 @@
-package com.ndviet.keyword;
+package org.ndviet.keyword;
 
-import com.ndviet.library.template.TemplateHelpers;
+import org.ndviet.library.template.TemplateHelpers;
 import org.robotframework.javalib.annotation.ArgumentNames;
 import org.robotframework.javalib.annotation.RobotKeyword;
 import org.robotframework.javalib.annotation.RobotKeywords;
@@ -12,7 +12,7 @@ import java.util.Map;
 @RobotKeywords
 public class TemplateUtils extends AnnotationLibrary {
     public TemplateUtils() {
-        super(Arrays.asList("com/ndviet/keyword/TemplateUtils.class"));
+        super(Arrays.asList("org/ndviet/keyword/TemplateUtils.class"));
     }
 
     @RobotKeyword
