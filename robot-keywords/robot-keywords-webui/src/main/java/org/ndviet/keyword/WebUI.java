@@ -148,8 +148,15 @@ public class WebUI extends AnnotationLibrary {
     }
 
     @RobotKeyword
-    public void verifyElementNotPresent() {
+    @ArgumentNames({"objectID", "variables="})
+    public void verifyElementNotPresent(String objectID, Map variables) throws Exception {
+        org.ndviet.library.WebUI.verifyElementNotPresent(findTestObject(objectID, variables));
+    }
 
+    @RobotKeywordOverload
+    @ArgumentNames({"objectID"})
+    public void verifyElementNotPresent(String objectID) throws Exception {
+        org.ndviet.library.WebUI.verifyElementNotPresent(findTestObject(objectID));
     }
 
     @RobotKeyword
@@ -204,8 +211,15 @@ public class WebUI extends AnnotationLibrary {
     }
 
     @RobotKeyword
-    public void verifyElementNotVisible() {
+    @ArgumentNames({"objectID", "variables="})
+    public void verifyElementNotVisible(String objectID, Map variables) throws Exception {
+        org.ndviet.library.WebUI.verifyElementNotVisible(findTestObject(objectID, variables));
+    }
 
+    @RobotKeywordOverload
+    @ArgumentNames({"objectID"})
+    public void verifyElementNotVisible(String objectID) throws Exception {
+        org.ndviet.library.WebUI.verifyElementNotVisible(findTestObject(objectID));
     }
 
     @RobotKeyword
