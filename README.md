@@ -33,19 +33,19 @@ Implementation for Test Libraries written in Java can be used in Robot Framework
 1. Clone repository "test-parent-pom" (**mandatory**)
 
 ```shell
-git clone git@github.com:vietnd96/test-parent-pom.git
+git clone git@github.com:ndviet/test-parent-pom.git
 ```
 
 2. Clone repository "test-automation-fwk" (optional)
 
 ```shell
-git clone git@github.com:vietnd96/test-automation-fwk.git
+git clone git@github.com:ndviet/test-automation-fwk.git
 ```
 
 3. Clone this repository, all these repositories should be checked out in the same directory
 
 ```shell
-git clone git@github.com:vietnd96/test-java2robot-adapter.git
+git clone git@github.com:ndviet/test-java2robot-adapter.git
 ```
 
 4. Build source code in each repository following the order
