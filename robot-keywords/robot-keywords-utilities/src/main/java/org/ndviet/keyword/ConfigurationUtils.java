@@ -1,7 +1,7 @@
 package org.ndviet.keyword;
 
-import org.ndviet.library.configuration.Configuration;
-import org.ndviet.library.configuration.ConfigurationFactory;
+import org.ndviet.library.configuration.AbstractConfiguration;
+import org.ndviet.library.configuration.ConfigurationManager;
 import org.ndviet.library.configuration.JsonConfiguration;
 import org.ndviet.library.configuration.YamlConfiguration;
 import org.ndviet.library.spring.SpringHelpers;
@@ -21,24 +21,24 @@ public class ConfigurationUtils extends AnnotationLibrary {
 
     @RobotKeyword
     public String getValue(String key) throws Exception {
-        return ConfigurationFactory.getInstance().getValue(key);
+        return ConfigurationManager.getInstance().getValue(key);
     }
 
     @RobotKeyword
     public List<String> getListValues(String key) throws Exception {
-        return ConfigurationFactory.getInstance().getListValues(key);
+        return ConfigurationManager.getInstance().getListValues(key);
     }
 
     @RobotKeyword
-    public Configuration readYamlConfiguration(String filePath) throws Exception {
-        Configuration configuration = new YamlConfiguration();
+    public AbstractConfiguration readYamlConfiguration(String filePath) throws Exception {
+        AbstractConfiguration configuration = new YamlConfiguration();
         configuration.readConfigurationFrom(filePath);
         return configuration;
     }
 
     @RobotKeyword
-    public Configuration readJsonConfiguration(String filePath) throws Exception {
-        Configuration configuration = new JsonConfiguration();
+    public AbstractConfiguration readJsonConfiguration(String filePath) throws Exception {
+        AbstractConfiguration configuration = new JsonConfiguration();
         configuration.readConfigurationFrom(filePath);
         return configuration;
     }

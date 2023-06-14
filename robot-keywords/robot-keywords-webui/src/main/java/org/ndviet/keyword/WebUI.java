@@ -1,6 +1,5 @@
 package org.ndviet.keyword;
 
-import org.ndviet.library.BrowserManagement;
 import org.ndviet.library.TakeScreenshot;
 import org.ndviet.library.spring.SpringHelpers;
 import org.openqa.selenium.WebElement;
@@ -49,12 +48,13 @@ public class WebUI extends AnnotationLibrary {
 
     @RobotKeyword
     public void openBrowser(String url) throws Exception {
-        BrowserManagement.getInstance().openBrowser(url);
+        org.ndviet.library.WebUI.openBrowser(url);
     }
+
 
     @RobotKeyword
     public void closeBrowser() {
-        BrowserManagement.getInstance().closeBrowser();
+        org.ndviet.library.WebUI.closeBrowser();
     }
 
     @RobotKeyword
